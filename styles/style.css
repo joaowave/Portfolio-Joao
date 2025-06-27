@@ -1362,6 +1362,10 @@ body {
     display: flex;
     flex-direction: column;
     }
+    .scroll-down {
+        bottom: -4rem;
+        z-index: 1;
+    }
 }
 
 @media (max-width: 480px) {
