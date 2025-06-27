@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Sobre</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor Personalizado -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Background Animado -->
+    <div class="bg-animation">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    <!-- Menu -->
+    <header class="glass-header">
+        <div class="container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active"><span data-text="Sobre">Sobre</span></a></li>
+                    <li><a href="formacao.html"><span data-text="Formação">Formação</span></a></li>
+                    <li><a href="portfolio.html"><span data-text="Projetos">Projetos</span></a></li>
+                    <li><a href="contato.html"><span data-text="Contato">Contato</span></a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Minha apresentação principal -->
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h4 class="greeting">Olá, me chamo</h4>
+                    <h1 class="name-title">
+                        <span class="name-gradient">João Vítor Nóbrega</span>
+                        <span class="title-rotate">
+                            <span class="rotate-item">Desenvolvedor</span>
+                            <span class="rotate-item">Analista de Sistemas</span>
+                            <span class="rotate-item">Estudante de ADS</span>
+                        </span>
+                    </h1>
+                    <p class="hero-description">Estudante de Análise e Desenvolvimento de Sistemas, <br> Dev Full Stack e empreendedor.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#sobre" class="btn btn-primary">
+                            <span>Saiba mais sobre mim</span>
+                        </a>
+                        <a href="portfolio.html" class="btn btn-secondary">
+                            <span>Ver Meus Projetos</span>
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Background interativo com os frameworks e linguagens que mais domino -->
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="assets/eu.jpg" alt="Minha Foto" class="profile-img">
+                        <div class="tech-icons">
+                            <div class="icon" style="--i:1"><i class="fab fa-html5"></i></div>
+                            <div class="icon" style="--i:2"><i class="fab fa-css3-alt"></i></div>
+                            <div class="icon" style="--i:3"><i class="fab fa-js"></i></div>
+                            <div class="icon" style="--i:4"><i class="fab fa-angular"></i></div>
+                            <div class="icon" style="--i:5"><i class="fab fa-node-js"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Botão com JS para o usuário rolar até a seção de sobre -->
+            <div class="scroll-down">
+                <span href="#sobre">Rolar para baixo</span>
+                <a href="#sobre"><i class="fas fa-arrow-down"></i></a>
+            </div>
+        </section>
+
+        <!-- Sobre mim -->
+        <section id="sobre" class="about-section">
+            <div class="section-header">
+                <h2 class="section-title"><span>Sobre</span> Mim</h2>
+                <div class="section-subtitle">Conheça um pouco mais sobre mim</div>
+            </div>
+            
+            <!-- Texto de apresentação -->
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3 class="about-title">Sou apaixonado por tecnologia!</h3>
+                    <div class="about-text">
+                        <p>Minha jornada como Dev iniciou em 2022, trabalhava como gerente de T.I e recebi uma proposta para atuar como desenvolvedor front-end, não pensei duas vezes e larguei tudo em busca do meu grande sonho.</p>
+
+                        <p>Hoje atuo como full stack em sistemas para empresas de níveis nacionais e multinacionais, como Volvo, Trox e Philco por exemplo. E tenho minha empresa de Certificação Digital, chamada BrasilCert.</p>
+                        <p>Acredito que a tecnologia deve ser acessível e intuitiva, por isso me dedico a criar soluções que combinem funcionalidade com excelência sempre visando facilidade em futuras manutenções.</p>
+                    </div>
+                    
+                    <!-- Minhas Skills com barras de progresso -->
+                    <div class="skills-progress">
+                        <h4>Minhas Habilidades</h4>
+                        <div class="progress-item">
+                            <div class="progress-info">
+                                <span>Typescript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-info">
+                                <span>C#</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-info">
+                                <span>Javascript</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Prévia das minhas formações -->
+                <div class="about-details">
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Formação</h4>
+                        <p>Análise e Desenvolvimento de Sistemas - UNINTER Centro Universitário Internacional (Cursando)</p>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <div class="detail-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h4>Idiomas</h4>
+                        <p>Português (Nativo), Inglês (Avançado)</p>
+                    </div>
+                    
+                    <!-- Alguns hobbies meus -->
+                    <div class="hobbies">
+                        <h4>Hobbies & Interesses</h4>
+                        <div class="hobbies-grid">
+                            <div class="hobby-item">
+                                <i class="fas fa-code"></i>
+                                <span>Programação</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Games</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-headphones"></i>
+                                <span>Música</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-bicycle"></i>
+                                <span>Esporte</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="glass-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="logo-footer">Portfólio</h3>
+                    <p>Desenvolvido com paixão e café.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Sobre</a></li>
+                        <li><a href="formacao.html">Formação</a></li>
+                        <li><a href="portfolio.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                       <a href="https://github.com/joaowave" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/jo%C3%A3o-n%C3%B3brega-9a936920a/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/joaowav/" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Meu Portfólio. João Vítor Nóbrega.</p>
+                <div class="made-with">
+                    <span>Feito com</span>
+                    <i class="fas fa-heart"></i>
+                    <span>e</span>
+                    <i class="fas fa-coffee"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

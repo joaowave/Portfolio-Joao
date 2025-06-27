@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Projetos</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor Personalizado -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Background Animado -->
+    <div class="bg-animation">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Menu -->
+    <header class="glass-header">
+        <div class="container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html"><span data-text="Sobre">Sobre</span></a></li>
+                    <li><a href="formacao.html"><span data-text="Formação">Formação</span></a></li>
+                    <li><a href="portfolio.html" class="active"><span data-text="Projetos">Projetos</span></a></li>
+                    <li><a href="contato.html"><span data-text="Contato">Contato</span></a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="portfolio-section">
+            <div class="section-header">
+            </div>
+
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card" data-category="web mobile">
+                    <div class="project-image">
+                        <img src="assets/brasilcert.png" alt="Projeto Web">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.brasilcert.com" target="_blank" class="project-link" title="Visualizar">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">BrasilCert - Certificado Digital</h3>
+                        <p class="project-description">Site da minha empresa de Certificação Digital, o site possui e-commerce, blog com newsletter e informações institucionais.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/GSS.jpg" alt="Aplicativo Mobile">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://goalsskysolutions.com/certificadora/login" target="_blank" class="project-link" title="Visualizar">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Gestão GSS</h3>
+                        <p class="project-description">Sistema de gestão para empresas de Certificação Digital. Projetado para Autoridades de Registro de Autoridades Certificadoras, possui dashboards, ranking de afiliados, sistema financeiro automatizado, sistema de solicitação de certificado digital, gerenciamento de usuários.</p>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>Typescript</span>
+                            <span>C#</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card" data-category="web mobile">
+                    <div class="project-image">
+                        <img src="assets/GSS INSTITUCIONAL.png" alt="Design UI/UX">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://goalsskysolutions.com/" target="_blank" class="project-link" title="Visualizar">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Goals Sky Solutions</h3>
+                        <p class="project-description">Site institucional da empresa GOALS SKY SOLUTIONS. Empresa que desenvolve softwares WEB, Mobile e aplica consultorias</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Typescript</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 4 -->
+                <div class="project-card" data-category="web mobile">
+                    <div class="project-image">
+                        <img src="assets/VIKINGS VOLVO.png" alt="Dashboard Web">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://associacaoviking.brazilsouth.cloudapp.azure.com/" target="_blank" class="project-link" title="Visualizar">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">VOLVO - VIKING</h3>
+                        <p class="project-description">Sistema de eventos do Grupo Volvo Brasil.</p>
+                        <div class="project-tech">
+                            <span>Blazor</span>
+                            <span>Radzen</span>
+                            <span>C#</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 5 -->
+                  <div class="project-card" data-category="web design">
+                    <div class="project-image">
+                        <img src="assets/KYOMI.png" alt="E-commerce">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://kyomi.com.br/" target="_blank" class="project-link" title="Visualizar">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">KYOMI</h3>
+                        <p class="project-description">E-commerce completo com carrinho, checkout e integração de pagamentos para uma loja de camisetas Streetwear.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Projeto 6 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/ANGESP.png" alt="App de Receitas">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://angesphomolog.azurewebsites.net/" target="_blank" class="project-link" title="Visualizar">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">ANGESP</h3>
+                        <p class="project-description">Gestão de perícia contábil judicial, extrajudicial e arbitral para as áreas contábil e financeira.</p>
+                        <div class="project-tech">
+                            <span>Blazor</span>
+                            <span>Radzen</span>
+                            <span>C#</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+               
+            <!-- Campo de chamada para a página "Contato" -->
+            <div class="cta-section">
+                <h3>Interessado em ver mais projetos?</h3>
+                <p>Entre em contato para solicitar acesso ao meu repositório completo.</p>
+                <a href="contato.html" class="btn btn-primary">
+                    <span>Entrar em Contato</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="glass-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="logo-footer">Portfólio</h3>
+                    <p>Desenvolvido com paixão e código limpo.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Sobre</a></li>
+                        <li><a href="formacao.html">Formação</a></li>
+                        <li><a href="portfolio.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                      <a href="https://github.com/joaowave" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/jo%C3%A3o-n%C3%B3brega-9a936920a/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/joaowav/" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Meu Portfólio. Todos os direitos reservados.</p>
+                <div class="made-with">
+                    <span>Feito com</span>
+                    <i class="fas fa-heart"></i>
+                    <span>e</span>
+                    <i class="fas fa-coffee"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/portfolio.js"></script>
+</body>
+</html>
